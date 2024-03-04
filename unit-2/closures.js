@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event){
 
     window.globalThis.randomVar ="hi";
-    function moves(name, hp, rest){
+    function moves(name, hp, ...rest){
         var moves = {
             name: name,
             hp: hp,
