@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>Binary Tree Algorithms</h1>
-    <button id="breadthBtn" onclick="depthFirstSearch()">Depth First Search</button>
-    <button id="depthBtn" onclick="breadthFirstSearch()">Breadth First Search</button>
+    <button id="breadthBtn">Depth First Search</button>
+    <button id="depthBtn">Breadth First Search</button>
     <div>
         <h2>Depth Array:</h2>
         <p id="depthArray"></p>
@@ -18,16 +18,5 @@
         <h2>Breadth Array:</h2>
         <p id="breadthArray"></p>
     </div>
-    <script>
-        document.getElementById('depthBtn').addEventListener('click', () => {
-            depthFirstSearch();
-            displayResults();
-        });
-
-        document.getElementById('breadthBtn').addEventListener('click', () => {
-            breadthFirstSearch();
-            displayResults();
-        });
-    </script>
 </body>
 </html>
